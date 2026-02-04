@@ -1,6 +1,8 @@
 from django import forms
 from .models import ShippingAddress
 
+# shipment form
+
 class ShippingForm(forms.ModelForm):
 	shipping_full_name = forms.CharField(label="", widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Full Name'}), required=True)
 	shipping_email = forms.CharField(label="", widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Email Address'}), required=True)
@@ -17,6 +19,7 @@ class ShippingForm(forms.ModelForm):
 
 		exclude = ['user',]
 
+   # payment form
 
 class PaymentForm(forms.Form):
 	card_name =  forms.CharField(label="", widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Name On Card'}), required=True)
