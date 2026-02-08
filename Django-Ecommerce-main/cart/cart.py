@@ -44,7 +44,7 @@ class Cart:
         """
         return str(product.id if hasattr(product, "id") else product)
 
-    # =========================
+    
     # Cart Operations
     # =========================
 
