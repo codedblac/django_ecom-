@@ -46,7 +46,7 @@ class Cart:
 
     
     # Cart Operations
-    # =========================
+    
 
     def add(self, product, quantity: int = 1) -> None:
         """
