@@ -80,9 +80,9 @@ class Cart:
 
         self._save()
 
-    # =========================
+    
     # Query Methods
-    # =========================
+    
 
     def __len__(self) -> int:
         """
