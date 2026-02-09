@@ -54,6 +54,7 @@ def cart_delete(request):
 
 
 
+
 def cart_update(request):
 	cart = Cart(request)
 	if request.POST.get('action') == 'post':
