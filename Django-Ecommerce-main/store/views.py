@@ -32,6 +32,7 @@ def search(request):
 		return render(request, "search.html", {})	
 
 
+
 def update_info(request):
 	if request.user.is_authenticated:
 		# Get Current User
