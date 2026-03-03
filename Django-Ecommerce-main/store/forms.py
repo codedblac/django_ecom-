@@ -18,7 +18,6 @@ class UserInfoForm(forms.ModelForm):
 		fields = ('phone', 'address1', 'address2', 'city', 'state', 'zipcode', 'country', )
 
 
-
 class ChangePasswordForm(SetPasswordForm):
 	class Meta:
 		model = User
