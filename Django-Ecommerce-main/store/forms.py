@@ -4,6 +4,7 @@ from django import forms
 from .models import Profile
 
 
+
 class UserInfoForm(forms.ModelForm):
 	phone = forms.CharField(label="", widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Phone'}), required=False)
 	address1 = forms.CharField(label="", widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Address 1'}), required=False)
