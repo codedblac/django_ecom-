@@ -36,6 +36,7 @@ post_save.connect(create_shipping, sender=User)
 
 
 
+
 # Create Order Model
 class Order(models.Model):
 	# Foreign Key
