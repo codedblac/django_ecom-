@@ -15,7 +15,6 @@ import json
 from cart.cart import Cart
 
 
-
 def search(request):
 	# Determine if they filled out the form
 	if request.method == "POST":
