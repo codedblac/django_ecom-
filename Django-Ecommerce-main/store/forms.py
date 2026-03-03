@@ -19,6 +19,7 @@ class UserInfoForm(forms.ModelForm):
 
 
 
+
 class ChangePasswordForm(SetPasswordForm):
 	class Meta:
 		model = User
