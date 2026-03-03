@@ -6,6 +6,7 @@ from django.dispatch import receiver
 import datetime
 
 
+
 class ShippingAddress(models.Model):
 	user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
 	shipping_full_name = models.CharField(max_length=255)
